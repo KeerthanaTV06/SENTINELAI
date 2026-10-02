@@ -29,11 +29,14 @@ graph TD;
 ### Core Components
 1. **Data Pipeline**: Real-time event streaming designed around Apache Kafka and Elasticsearch.
 2. **Inference Backend**: A high-performance FastAPI server wrapping the machine learning models.
-3. **Frontend Dashboard**: A React/Vite web application providing live threat monitoring and SHAP-based model explainability.
+3. **Frontend Dashboard**: A sleek, modern React/Vite web application providing:
+   - **Live Threat Monitoring**: SHAP-based model explainability dashboards (LSTM, CNN, XGBoost).
+   - **Inference Board**: Live testing environment for manual predictions against deployed models.
+   - **Datasets Board**: Centralized view of training/testing datasets with size and status monitoring.
+   - **Connection Board**: Real-time infrastructure monitoring showing uptime, latency, and system activity logs.
 4. **Response Engine**: An automated script wrapping OS-level firewall commands (e.g., `iptables`) to instantly drop malicious connections with a Human-in-the-Loop (HITL) approval gate for high-severity alerts.
 
 ---
-
 ## 🧠 Machine Learning Models & Datasets
 
 SENTINEL-AI utilizes an ensemble of state-of-the-art models targeting specific threat vectors:
