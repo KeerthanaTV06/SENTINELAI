@@ -5,7 +5,8 @@ import XGBoost_Dashboard from './components/XGBoost_Dashboard';
 import InferenceBoard from './components/InferenceBoard';
 import DatasetsBoard from './components/DatasetsBoard';
 import ConnectionBoard from './components/ConnectionBoard';
-import { Activity, Shield, Globe, Cpu, Database, Wifi, Menu, Zap } from 'lucide-react';
+import AlertInfoBoard from './components/AlertInfoBoard';
+import { Activity, Shield, Globe, Cpu, Database, Wifi, Menu, Zap, Bell } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('lstm');
@@ -16,7 +17,8 @@ export default function App() {
     { id: 'xgboost', label: 'XGBoost (Phishing)', icon: Globe, section: 'Models' },
     { id: 'inference', label: 'Inference', icon: Cpu, section: 'Operations' },
     { id: 'datasets', label: 'Datasets', icon: Database, section: 'Operations' },
-    { id: 'connections', label: 'Connections', icon: Wifi, section: 'System' }
+    { id: 'connections', label: 'Connections', icon: Wifi, section: 'System' },
+    { id: 'alerts', label: 'Alert Info', icon: Bell, section: 'System' }
   ];
 
   return (
@@ -100,6 +102,7 @@ export default function App() {
           {activeTab === 'inference' && <InferenceBoard />}
           {activeTab === 'datasets' && <DatasetsBoard />}
           {activeTab === 'connections' && <ConnectionBoard />}
+          {activeTab === 'alerts' && <AlertInfoBoard />}
         </div>
       </main>
     </div>
