@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
+.Python
+
+# DVC
+.dvc/
+
+# Pytest
+.cache/
+
+# Logs
+logs/
+
+# Virtual envs
+.env
+
+# Docker
+docker-compose.override.yml
+
+# Byte-compiled
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+venv/
+.env
+__pycache__/
+*.pyc
+*.zip
+*.exe
+datasets/processed/

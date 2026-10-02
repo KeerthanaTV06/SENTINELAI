@@ -1,0 +1,205 @@
+{
+  "dataset": "nslkdd",
+  "rows": 10000,
+  "columns": 27,
+  "dtypes": {
+    "duration": "int64",
+    "protocol_type": "object",
+    "service": "object",
+    "flag": "object",
+    "src_bytes": "int64",
+    "dst_bytes": "int64",
+    "land": "int64",
+    "wrong_fragment": "int64",
+    "urgent": "int64",
+    "hot": "int64",
+    "num_failed_logins": "int64",
+    "logged_in": "int64",
+    "num_compromised": "int64",
+    "root_shell": "int64",
+    "su_attempted": "int64",
+    "num_root": "int64",
+    "num_file_creations": "int64",
+    "num_shells": "int64",
+    "num_access_files": "int64",
+    "count": "int64",
+    "srv_count": "int64",
+    "serror_rate": "float64",
+    "srv_serror_rate": "float64",
+    "same_srv_rate": "float64",
+    "dst_host_count": "int64",
+    "dst_host_srv_count": "int64",
+    "label": "object"
+  },
+  "missing_values": {},
+  "label_distribution": {
+    "normal": 5791,
+    "dos": 2470,
+    "probe": 1041,
+    "r2l": 518,
+    "u2r": 180
+  },
+  "numeric_summary": {
+    "duration": {
+      "mean": 7.4215,
+      "median": 3.0,
+      "std": 12.041384357445134,
+      "min": 0.0,
+      "max": 125.0
+    },
+    "src_bytes": {
+      "mean": 628.2467,
+      "median": 271.0,
+      "std": 1192.4918765872926,
+      "min": 0.0,
+      "max": 35123.0
+    },
+    "dst_bytes": {
+      "mean": 370.7218,
+      "median": 159.0,
+      "std": 673.9241470524394,
+      "min": 0.0,
+      "max": 21127.0
+    },
+    "land": {
+      "mean": 0.0045,
+      "median": 0.0,
+      "std": 0.06693428134970884,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "wrong_fragment": {
+      "mean": 0.0136,
+      "median": 0.0,
+      "std": 0.11582910531539047,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "urgent": {
+      "mean": 0.012,
+      "median": 0.0,
+      "std": 0.10889070538191889,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "hot": {
+      "mean": 2.6877,
+      "median": 2.0,
+      "std": 2.570997804933193,
+      "min": 0.0,
+      "max": 14.0
+    },
+    "num_failed_logins": {
+      "mean": 0.2674,
+      "median": 0.0,
+      "std": 0.6042629836216492,
+      "min": 0.0,
+      "max": 6.0
+    },
+    "logged_in": {
+      "mean": 0.5225,
+      "median": 1.0,
+      "std": 0.49951846999904514,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "num_compromised": {
+      "mean": 0.9534,
+      "median": 0.0,
+      "std": 1.323859395997187,
+      "min": 0.0,
+      "max": 8.0
+    },
+    "root_shell": {
+      "mean": 0.0081,
+      "median": 0.0,
+      "std": 0.08963924095702695,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "su_attempted": {
+      "mean": 0.0045,
+      "median": 0.0,
+      "std": 0.06693428134970884,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "num_root": {
+      "mean": 0.4583,
+      "median": 0.0,
+      "std": 0.7484097284991499,
+      "min": 0.0,
+      "max": 6.0
+    },
+    "num_file_creations": {
+      "mean": 0.3561,
+      "median": 0.0,
+      "std": 0.6637294958673814,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "num_shells": {
+      "mean": 0.0083,
+      "median": 0.0,
+      "std": 0.09073000161644071,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "num_access_files": {
+      "mean": 0.2789,
+      "median": 0.0,
+      "std": 0.5698660059404076,
+      "min": 0.0,
+      "max": 5.0
+    },
+    "count": {
+      "mean": 62.0997,
+      "median": 25.0,
+      "std": 49.96896486475346,
+      "min": 6.0,
+      "max": 163.0
+    },
+    "srv_count": {
+      "mean": 55.0884,
+      "median": 19.0,
+      "std": 47.58098759460597,
+      "min": 4.0,
+      "max": 147.0
+    },
+    "serror_rate": {
+      "mean": 0.44554499999999997,
+      "median": 0.31,
+      "std": 0.3557756073753235,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "srv_serror_rate": {
+      "mean": 0.44014079999999994,
+      "median": 0.304,
+      "std": 0.3591258123698031,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "same_srv_rate": {
+      "mean": 0.5282616,
+      "median": 0.603,
+      "std": 0.32319336373211016,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "dst_host_count": {
+      "mean": 25.3514,
+      "median": 29.0,
+      "std": 12.434941930627655,
+      "min": 1.0,
+      "max": 58.0
+    },
+    "dst_host_srv_count": {
+      "mean": 18.6586,
+      "median": 20.0,
+      "std": 8.537197105223783,
+      "min": 1.0,
+      "max": 45.0
+    }
+  }
+}

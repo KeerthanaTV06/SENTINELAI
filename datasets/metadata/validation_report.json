@@ -1,0 +1,155 @@
+{
+  "dataset": "nslkdd",
+  "status": "warning",
+  "summary": {
+    "rows": 10000,
+    "columns": 27,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "invalid_labels": 0,
+    "outlier_columns": {
+      "duration": 240,
+      "src_bytes": 153,
+      "dst_bytes": 173,
+      "land": 45,
+      "wrong_fragment": 136,
+      "urgent": 120,
+      "hot": 61,
+      "num_failed_logins": 101,
+      "num_compromised": 224,
+      "root_shell": 81,
+      "su_attempted": 45,
+      "num_root": 217,
+      "num_file_creations": 143,
+      "num_shells": 83,
+      "num_access_files": 435,
+      "dst_host_srv_count": 1
+    }
+  },
+  "missing_values": {},
+  "duplicate_rows": 0,
+  "invalid_labels": [],
+  "incorrect_dtypes": {},
+  "outliers": {
+    "duration": 240,
+    "src_bytes": 153,
+    "dst_bytes": 173,
+    "land": 45,
+    "wrong_fragment": 136,
+    "urgent": 120,
+    "hot": 61,
+    "num_failed_logins": 101,
+    "logged_in": 0,
+    "num_compromised": 224,
+    "root_shell": 81,
+    "su_attempted": 45,
+    "num_root": 217,
+    "num_file_creations": 143,
+    "num_shells": 83,
+    "num_access_files": 435,
+    "count": 0,
+    "srv_count": 0,
+    "serror_rate": 0,
+    "srv_serror_rate": 0,
+    "same_srv_rate": 0,
+    "dst_host_count": 0,
+    "dst_host_srv_count": 1
+  },
+  "feature_ranges": {
+    "duration": {
+      "min": 0.0,
+      "max": 125.0
+    },
+    "src_bytes": {
+      "min": 0.0,
+      "max": 35123.0
+    },
+    "dst_bytes": {
+      "min": 0.0,
+      "max": 21127.0
+    },
+    "land": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "wrong_fragment": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "urgent": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "hot": {
+      "min": 0.0,
+      "max": 14.0
+    },
+    "num_failed_logins": {
+      "min": 0.0,
+      "max": 6.0
+    },
+    "logged_in": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "num_compromised": {
+      "min": 0.0,
+      "max": 8.0
+    },
+    "root_shell": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "su_attempted": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "num_root": {
+      "min": 0.0,
+      "max": 6.0
+    },
+    "num_file_creations": {
+      "min": 0.0,
+      "max": 5.0
+    },
+    "num_shells": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "num_access_files": {
+      "min": 0.0,
+      "max": 5.0
+    },
+    "count": {
+      "min": 6.0,
+      "max": 163.0
+    },
+    "srv_count": {
+      "min": 4.0,
+      "max": 147.0
+    },
+    "serror_rate": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "srv_serror_rate": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "same_srv_rate": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "dst_host_count": {
+      "min": 1.0,
+      "max": 58.0
+    },
+    "dst_host_srv_count": {
+      "min": 1.0,
+      "max": 45.0
+    }
+  },
+  "issues": [
+    "outliers"
+  ]
+}

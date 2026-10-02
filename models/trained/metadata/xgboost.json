@@ -1,0 +1,14 @@
+{
+  "model_name": "xgboost",
+  "metrics": {
+    "accuracy": 0.5
+  },
+  "metadata": {
+    "dataset": "nslkdd"
+  },
+  "config": {
+    "model": "xgboost"
+  },
+  "artifact_path": "C:\\Users\\DELL\\Documents\\Yazhish\\keer\\ACS PROJECT\\models\\trained\\xgboost.pkl",
+  "metadata_path": "C:\\Users\\DELL\\Documents\\Yazhish\\keer\\ACS PROJECT\\models\\trained\\metadata\\xgboost.json"
+}

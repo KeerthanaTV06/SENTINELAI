@@ -1,0 +1,17 @@
+{
+  "model_name": "logistic_regression",
+  "dataset_name": "nslkdd",
+  "target_column": "label",
+  "metrics": {
+    "accuracy": 0.8685714285714285,
+    "precision": 0.8652067669172933,
+    "recall": 0.8685714285714285,
+    "f1": 0.8545879296945695,
+    "roc_auc": null,
+    "cv_accuracy_mean": 0.7686167599960703
+  },
+  "random_state": 7,
+  "cv_folds": 3,
+  "artifact_path": "C:\\Users\\DELL\\Documents\\Yazhish\\keer\\ACS PROJECT\\models\\trained\\logistic_regression.pkl",
+  "metadata_path": "C:\\Users\\DELL\\Documents\\Yazhish\\keer\\ACS PROJECT\\models\\trained\\metadata\\logistic_regression.json"
+}

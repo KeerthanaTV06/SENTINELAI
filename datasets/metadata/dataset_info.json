@@ -1,0 +1,103 @@
+{
+  "datasets": [
+    {
+      "name": "nsl_kdd",
+      "path": "C:\\Users\\DELL\\Documents\\Yazhish\\keer\\ACS PROJECT\\datasets\\raw\\nsl_kdd\\train.csv",
+      "columns": [
+        "duration",
+        "protocol_type",
+        "service",
+        "flag",
+        "src_bytes",
+        "dst_bytes",
+        "land",
+        "wrong_fragment",
+        "urgent",
+        "hot",
+        "num_failed_logins",
+        "logged_in",
+        "num_compromised",
+        "root_shell",
+        "su_attempted",
+        "num_root",
+        "num_file_creations",
+        "num_shells",
+        "num_access_files",
+        "count",
+        "srv_count",
+        "serror_rate",
+        "srv_serror_rate",
+        "same_srv_rate",
+        "dst_host_count",
+        "dst_host_srv_count",
+        "label"
+      ],
+      "label_classes": [
+        "dos",
+        "normal",
+        "probe",
+        "r2l",
+        "u2r"
+      ],
+      "row_count": 10000,
+      "description": "Synthetic NSL-KDD style intrusion detection dataset for multiclass classification."
+    },
+    {
+      "name": "cicids2017",
+      "path": "C:\\Users\\DELL\\Documents\\Yazhish\\keer\\ACS PROJECT\\datasets\\raw\\cicids2017\\cicids.csv",
+      "columns": [
+        "Flow Duration",
+        "Total Fwd Packets",
+        "Total Backward Packets",
+        "Flow Bytes/s",
+        "Flow Packets/s",
+        "Packet Length Mean",
+        "Packet Length Std",
+        "FIN Flag Count",
+        "SYN Flag Count",
+        "ACK Flag Count",
+        "Average Packet Size",
+        "Flow IAT Mean",
+        "Destination Port",
+        "Protocol",
+        "Label"
+      ],
+      "label_classes": [
+        "BENIGN",
+        "Bot",
+        "BruteForce",
+        "DDoS",
+        "DoS",
+        "Infiltration",
+        "PortScan"
+      ],
+      "row_count": 10000,
+      "description": "Synthetic CICIDS2017 style network traffic dataset for attack classification."
+    },
+    {
+      "name": "phishtank",
+      "path": "C:\\Users\\DELL\\Documents\\Yazhish\\keer\\ACS PROJECT\\datasets\\raw\\phishtank\\phishing_urls.csv",
+      "columns": [
+        "url",
+        "domain_length",
+        "path_length",
+        "has_ip",
+        "has_https",
+        "num_dots",
+        "num_hyphens",
+        "num_digits",
+        "has_at_symbol",
+        "has_double_slash",
+        "has_login_keyword",
+        "entropy",
+        "label"
+      ],
+      "label_classes": [
+        "legitimate",
+        "phishing"
+      ],
+      "row_count": 10000,
+      "description": "Synthetic PhishTank style phishing URL dataset for binary classification."
+    }
+  ]
+}
