@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sentinel-inference
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: sentinel
+  template:
+    metadata:
+      labels:
+        app: sentinel
+    spec:
+      containers:
+      - name: api
+        image: sentinel-api:latest
+        ports:
+        - containerPort: 8000

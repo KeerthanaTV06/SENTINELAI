@@ -1,8 +1,8 @@
 # Build stage
 FROM node:20-alpine AS build
 WORKDIR /app
-COPY frontend/package.json frontend/package-lock.json* ./
 COPY frontend/ ./
+RUN rm -rf node_modules package-lock.json
 RUN npm install
 RUN npm run build
 
